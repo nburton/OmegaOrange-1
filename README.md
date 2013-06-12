@@ -1,7 +1,7 @@
-OmegaOrange
+Omega Orange
 ===========
 
-Apparatus Intern Project
+Apparatus Intern Project. It is a mobile app that displays all of the employees in a buisness card like functionality.
 
 Demo Available [Here](http://mwmisner.com/OmegaOrange/)
 
@@ -11,4 +11,4 @@ fast, robust, and adaptable web apps or sites. This project is the
 product of many years of iterative development and combined community 
 knowledge. It does not impose a specific development philosophy or 
 framework, so you're free to architect your code in the way that you 
-want. * Source: 
+want. 
