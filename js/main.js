@@ -29,6 +29,11 @@ function reloadPage(){
 
 //implements check open and toggle blur.
 function displayCard(){
+	var anchorId = $(this).html();
+	//.attr('class');
+	$(".cardOverlay").html(anchorId);
+	$(".cardOverlay>.cardContent>span").removeClass("hidden")
+	//console.log(test);
 	checkOpen();
 	toggleCardOverlay();
 
@@ -68,7 +73,7 @@ function toggleSearch(){
 }
 //either hides or displays the blur effect.
 function toggleBlur(){
-	console.log("BLARG");
+	
 	if(blur==0){
 		$('.blur').fadeIn(150);
 		blur=1;
@@ -82,7 +87,6 @@ function toggleBlur(){
 
 //checks to see if anyhting is open, if it is it toggles it from its current state.
 function checkOpen(){
-	console.log("checkopen")
 		if(search==1){
 			toggleSearch();
 		}

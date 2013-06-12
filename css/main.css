@@ -312,7 +312,7 @@ margin:55px auto;
 
 }
 
-.cardContent{
+.card .cardContent{
     color:black;
     position:absolute;
     margin: 0px;
