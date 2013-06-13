@@ -1,9 +1,9 @@
 
 //defining global variables to keep track of the state of all popup objects.
-sidebar=new Number(0);
-search=new Number(0);
-blur=new Number(0);
-cardOverlay=new Number(0);
+var sidebar=new Number(0);
+var search=new Number(0);
+var blur=new Number(0);
+var cardOverlay=new Number(0);
 
 //on document load implemnt these functions
 $(document).ready(function(){
@@ -11,9 +11,23 @@ $(document).ready(function(){
 	$('#overlay,.blur,.search,.cardOverlay').removeClass('hidden');
 	//moves hidden control to jquery
 	$('#overlay,.blur,.search,.cardOverlay').hide(0);
-
+	//controls the search bar.
+	$('.search input').quicksearch('#content .card .cardContent span', {
+	'delay': 100,
+	'stripeRows': ['odd', 'even'],
+	'loader': 'span.loading',
+	'bind': 'keyup click',
+	'show': function () {
+		(this.parent('div')).style.display = '';
+	},
+	'hide': function () {
+		(this.parent('div')).style.display = 'none';
+	}
+	});
+	
 
 });
+
 //On click functions, all going to individual functions
 $('#lb').click(toggleSideBar);
 $('#rb').click(toggleSearch);
