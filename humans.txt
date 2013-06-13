@@ -16,7 +16,15 @@
 
     Apparatus, Inc.
 
-# TECHNOLOGY COLOPHON
+# SITE
+   
+                            
+Last update: 2013/06/13
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+                            
+Standards: HTML5, CSS3,
+                            
+Components: Modernizr, jQuery, Normalize.css
+
+                            
+Software: Sublime Text, Putty, FileZilla, git
