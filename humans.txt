@@ -3,11 +3,18 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Matt Misner 	-- Web Devloper 	-- @mwmisner
+    Colin Wagner 	-- IOS Devloper 
+    Conner Howell 	-- Design
+    Kylie Fennig 	-- Project Manager
+    Andy Cooper 	-- Backend Devloper
+    Nick Burton		-- Backend Devloper
+    Tyler Watterson	-- Backend Devloper
+    Vince Holloway	-- Backend Devloper
 
 # THANKS
 
-    <name>
+    Apparatus, Inc.
 
 # TECHNOLOGY COLOPHON
 
