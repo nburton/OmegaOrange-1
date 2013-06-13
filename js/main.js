@@ -14,16 +14,21 @@ $(document).ready(function(){
 	//controls the search bar.
 	$('.search input').quicksearch('#content .card .cardContent span', {
 	'delay': 100,
-	'stripeRows': ['odd', 'even'],
-	'loader': 'span.loading',
-	'bind': 'keyup click',
 	'show': function () {
-		(this.parent('div')).style.display = '';
+		$(this).parents('article').removeClass('hidden');
+		$(this).parents('article').addClass('searchResult');
+		console.log("show");
+
 	},
 	'hide': function () {
-		(this.parent('div')).style.display = 'none';
+		console.log("hideEnter");
+		if(!$(this).parents('article').hasClass('searchResult')){
+		$(this).parents('article').addClass('hidden');
+		console.log("hide");
+		}
 	}
 	});
+
 	
 
 });
