@@ -15,16 +15,21 @@ $(document).ready(function(){
 	$('.search input').quicksearch('#content .card .cardContent span', {
 	'delay': 100,
 	'show': function () {
+		if(!$(this).siblings().hasClass('searchResult')){
 		$(this).parents('article').removeClass('hidden');
-		$(this).parents('article').addClass('searchResult');
+		$(this).addClass('searchResult');
 		console.log("show");
-
+		}else{
+			console.log("show if failed");
+		}
 	},
 	'hide': function () {
 		console.log("hideEnter");
-		if(!$(this).parents('article').hasClass('searchResult')){
+		if(!$(this).siblings().hasClass('searchResult')){
 		$(this).parents('article').addClass('hidden');
 		console.log("hide");
+		}else{
+			console.log("hide if failed");
 		}
 	}
 	});
