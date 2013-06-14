@@ -4,13 +4,14 @@
 # TEAM
 
     Matt Misner 	-- Web Developer 	-- @mwmisner
-    Colin Wagner 	-- IOS Developer 
+    Colin Wagner 	-- IOS Developer
+    Vince Holloway  -- IOS Developer
     Conner Howell 	-- Design
     Kylie Fennig 	-- Project Manager
     Andy Cooper 	-- Backend Developer
     Nick Burton		-- Backend Developer
     Tyler Watterson	-- Backend Developer
-    Vince Holloway	-- Backend Developer
+   
 
 # THANKS
 
