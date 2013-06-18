@@ -169,7 +169,6 @@ header{
     background-color:rgb(251,139,0);
     z-index:1;
     height:50px;
-    min-width: 450px;
 }
 .search{
     position:fixed;
