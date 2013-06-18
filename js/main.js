@@ -13,23 +13,19 @@ $(document).ready(function(){
 	$('#overlay,.blur,.search,.cardOverlay').hide(0);
 	//controls the search bar.
 	$('.search input').quicksearch('#content .card .cardContent span', {
-	'delay': 100,
+	'delay': 0,
 	'show': function () {
-		if(!$(this).siblings().hasClass('searchResult')){
+		
+		
 		$(this).parents('article').removeClass('hidden');
 		$(this).addClass('searchResult');
-		console.log("show");
-		}else{
-			console.log("show if failed");
-		}
+		
+		
 	},
 	'hide': function () {
-		console.log("hideEnter");
+		$(this).removeClass('searchResult');
 		if(!$(this).siblings().hasClass('searchResult')){
 		$(this).parents('article').addClass('hidden');
-		console.log("hide");
-		}else{
-			console.log("hide if failed");
 		}
 	}
 	});
@@ -148,6 +144,8 @@ function searchSlideIn(){
 		$('#content').animate({
             'margin-top': '55px'
         }, 100);
+    $('.search input').focus();
+
 }
 
 
