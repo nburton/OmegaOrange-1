@@ -1,4 +1,4 @@
-
+//arb change
 //defining global variables to keep track of the state of all popup objects.
 var sidebar=new Number(0);
 var search=new Number(0);
