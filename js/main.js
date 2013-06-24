@@ -50,13 +50,10 @@ function reloadPage(){
 //implements check open and toggle blur.
 function displayCard(){
 	var anchorId = $(this).html();
-	//.attr('class');
 	$(".cardOverlay").html(anchorId);
 	$(".cardOverlay>.cardContent>span").removeClass("hidden")
-	//console.log(test);
 	checkOpen();
 	toggleCardOverlay();
-
 }
 
 //Brings the sidebar out or brings it in. Closes all other open windows.
@@ -75,10 +72,8 @@ function toggleCardOverlay(){
 	if(cardOverlay==0){
 		checkOpen();
 		cardSlideIn();
-		cardOverlay=1;
 	} else if(cardOverlay==1){
 		cardSlideOut();
-		cardOverlay=0;
 	}
 }
 //brings the search bar out or brings it in, closes all other open windows.
