@@ -1,0 +1,27 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Matt Misner 	-- Web Developer 	-- @mwmisner
+    Colin Wagner 	-- IOS Developer
+    Vince Holloway  -- IOS Developer
+    Conner Howell 	-- Design
+    Kylie Fennig 	-- Project Manager
+    Andy Cooper 	-- Backend Developer
+    Nick Burton		-- Backend Developer
+    Tyler Watterson	-- Backend Developer
+   
+
+# THANKS
+
+    Apparatus, Inc.
+
+# SITE                            
+    Last update: 2013/06/13
+                            
+    Standards: HTML5, CSS3,
+                            
+    Components: Modernizr, jQuery, Normalize.css
+                    
+    Software: Sublime Text, Putty, FileZilla, git

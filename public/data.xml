@@ -1,0 +1,112 @@
+<article class="card" id="Matt Misner">
+            <img src="img/people/pro.jpg">
+            <div class="cardContent">
+                <span class="name">Matt Misner</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">Zulu</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">mmisner@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-3265</span><br />
+                <span class="hidden home">(317) 555-2135</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+                <article class="card" id="Colin Wagner">
+           <img src="img/people/cdub.jpg">
+            <div class="cardContent">
+                <span class="name">Colin Wagner</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">Charlie</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">cwagner@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-1682</span><br />
+                <span class="hidden home">(317) 555-7891</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+        <article class="card" id="Conner Howell">
+            <img src="img/people/chowell.jpg">
+            <div class="cardContent">
+                <span class="name">Conner Howell</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">TBA</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 6/3/2013</span><br />
+                <span class="hidden email">chowell@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-2131</span><br />
+                <span class="hidden home">(317) 555-2131</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+                <article class="card" id="Kylie Fennig">
+           <img src="img/people/kfennig.jpg">
+            <div class="cardContent">
+                <span class="name">Kylie Fennig</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">TBA</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">kfennig@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-1235</span><br />
+                <span class="hidden home">(317) 555-2156</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+        <article class="card" id="Andy Cooper">
+            <img src="img/people/acooper.jpg">
+            <div class="cardContent">
+                <span class="name">Andy Cooper</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">Tango</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">acooper@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-2131</span><br />
+                <span class="hidden home">(317) 555-2235</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+                <article class="card" id="Nick Burton">
+           <img src="img/people/nburton.jpg">
+            <div class="cardContent">
+                <span class="name">Nick Burton</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">TBA</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">nburton@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-7654</span><br />
+                <span class="hidden home">(317) 555-2354</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+        <article class="card" id="Tyler Watterson">
+            <img src="img/people/tylerw.jpg">
+            <div class="cardContent">
+                <span class="name">Tyler Watterson</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">TBA</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">tylerw@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-3265</span><br />
+                <span class="hidden home">(317) 555-2135</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
+                <article class="card" id="Vince Holloway">
+           <img src="img/people/vholloway.jpg">
+            <div class="cardContent">
+                <span class="name">Vince Holloway</span><br />
+                <span class="position">Intern</span><br />
+                <span class="team">TBA</span><br />
+                <span class="location">Apparatus HQ</span><br />
+                <span class="hidden startdate">Started: 5/14/2013</span><br />
+                <span class="hidden email">vholloway@apparatus.net</span><br />
+                <span class="hidden work">(317) 555-2312</span><br />
+                <span class="hidden home">(317) 555-2131</span><br />
+                <span class="hidden location">Apparatus HQ</span><br />
+            </div> 
+        </article>
