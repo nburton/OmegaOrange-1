@@ -102,7 +102,6 @@ function toggleBlur(){
 
 //checks to see if anyhting is open, if it is it toggles it from its current state.
 function checkOpen(){
-
 		if(search==1){
 			toggleSearch();
 		}
@@ -151,13 +150,13 @@ function cardSlideIn(){
 
 		$('.cardOverlay').show(100);
 		toggleBlur();
-		cardOverlay=0;
+		cardOverlay=1;
 }
 
 //hides the infromation card from the user.
 function cardSlideOut(){
 		toggleBlur();
 		$('.cardOverlay').hide(100);
-		cardOverlay=1;
+		cardOverlay=0;
 }
 
